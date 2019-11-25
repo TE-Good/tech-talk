@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { dbURI, port } = require('./config/environment')
 
 const express = require('express')
@@ -25,7 +26,7 @@ app.use('/*', (req, res) => res.sendFile(`${__dirname}/dist/index.html`))
 app.use(errorHandler)
 
 
-app.listen(port, () => console.log(`Listening on port ${port}`))
+app.listen(process.env.PORT, () => console.log(`Listening on port ${process.env.PORT}`))
 
 
 module.exports = app
