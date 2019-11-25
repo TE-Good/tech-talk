@@ -13,8 +13,6 @@ const errorHandler = require('./lib/errorHandler')
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
   () => console.log('Mongo is connected'))
 
-// mongoose.connect(process.env.MONGODB_URI)
-
 app.use(express.static(`${__dirname}/dist`))
 
 app.use(bodyParser.json())
