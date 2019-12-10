@@ -5,7 +5,7 @@
 7 Days
 
 ## Technologies Used
-* JavaScript (ES6) / HTML5 / SCSS
+* JavaScript / HTML5 / SCSS
 * React.js
 * Node.js
 * Express
