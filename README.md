@@ -21,6 +21,8 @@ TechTalk was created in 7 days by a team of four developers; [@Vikram Bageja](ht
 
 The concept of the project was to create a meet up website taliored towards developers. The website would allow you to host, as well as, attend events.
 
+Website Link: https://tecktalk.herokuapp.com/
+
 ![front-page](https://i.imgur.com/6WgCqtd.jpg)
 
 ## Instructions
